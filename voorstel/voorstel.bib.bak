@@ -18,7 +18,6 @@
   title       = {De verschillen tussen Citrix Podio en concurrerende online business management platformen: een vergelijkende studie},
   type        = {resreport},
   url         = {https://scriptie.hogent.be/2021-2022/1019_201968589_PBA-TIN_scriptie.pdf},
-  urldate     = {2022-12-07},
   abstract    = {Bachelorproef die in een vergelijkende studie, het cloud-based business management platform genaamd Citrix Podio bespreekt, de functionaliteiten van dit platform en het platform gaat vergelijken met andere gelijkaardige platformen.},
 }
 
@@ -31,18 +30,16 @@
 }
 
 @Online{AppSheet2020,
-  date    = {2020},
-  editor  = {Google AppSheet},
-  title   = {The fastest way to build apps and automate work},
-  url     = {https://about.appsheet.com/home/},
-  urldate = {2022-12-10},
+  date   = {2020},
+  editor = {Google AppSheet},
+  title  = {The fastest way to build apps and automate work},
+  url    = {https://about.appsheet.com/home/},
 }
 
 @Online{Quivvy,
-  editor  = {Quivvy},
-  title   = {What Is Citrix Podio?},
-  url     = {https://quivvy.com/citrix-podio},
-  urldate = {2022-12-09},
+  editor = {Quivvy},
+  title  = {What Is Citrix Podio?},
+  url    = {https://quivvy.com/citrix-podio},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
