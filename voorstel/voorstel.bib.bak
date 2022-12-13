@@ -18,28 +18,30 @@
   title       = {De verschillen tussen Citrix Podio en concurrerende online business management platformen: een vergelijkende studie},
   type        = {resreport},
   url         = {https://scriptie.hogent.be/2021-2022/1019_201968589_PBA-TIN_scriptie.pdf},
+  urldate     = {2022-12-07},
   abstract    = {Bachelorproef die in een vergelijkende studie, het cloud-based business management platform genaamd Citrix Podio bespreekt, de functionaliteiten van dit platform en het platform gaat vergelijken met andere gelijkaardige platformen.},
 }
 
-@Online{Tape2019,
-  date    = {2019},
-  editor  = {Tape},
-  title   = {About Us},
-  url     = {https://get.tapeapp.com/about/},
-  urldate = {2022-12-09},
+@Online{Airtable2019,
+  author  = {Airtable},
+  title   = {Why Airtable?},
+  url     = {https://www.airtable.com/guides/start/what-is-airtable},
+  urldate = {2022-12-13},
 }
 
 @Online{AppSheet2020,
-  date   = {2020},
-  editor = {Google AppSheet},
-  title  = {The fastest way to build apps and automate work},
-  url    = {https://about.appsheet.com/home/},
+  date    = {2020},
+  editor  = {Google AppSheet},
+  title   = {The fastest way to build apps and automate work},
+  url     = {https://about.appsheet.com/home/},
+  urldate = {2022-12-10},
 }
 
 @Online{Quivvy,
-  editor = {Quivvy},
-  title  = {What Is Citrix Podio?},
-  url    = {https://quivvy.com/citrix-podio},
+  editor  = {Quivvy},
+  title   = {What Is Citrix Podio?},
+  url     = {https://quivvy.com/citrix-podio},
+  urldate = {2022-12-09},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
