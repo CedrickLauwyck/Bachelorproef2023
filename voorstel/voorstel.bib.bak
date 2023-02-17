@@ -22,7 +22,7 @@
   abstract    = {Bachelorproef die in een vergelijkende studie, het cloud-based business management platform genaamd Citrix Podio bespreekt, de functionaliteiten van dit platform en het platform gaat vergelijken met andere gelijkaardige platformen.},
 }
 
-@Online{Airtable2019,
+@Online{Airtable,
   author  = {Airtable},
   title   = {Why Airtable?},
   url     = {https://www.airtable.com/guides/start/what-is-airtable},
@@ -37,11 +37,51 @@
   urldate = {2022-12-10},
 }
 
-@Online{Quivvy,
+@Online{QuivvyPodio,
   editor  = {Quivvy},
   title   = {What Is Citrix Podio?},
   url     = {https://quivvy.com/citrix-podio},
   urldate = {2022-12-09},
+}
+
+@Online{QuivvyAbout,
+  editor  = {Quivvy},
+  title   = {About Us},
+  url     = {https://quivvy.com/about-us},
+  urldate = {2023-02-12},
+}
+
+@Online{QuivvySoftware,
+  editor = {Quivvy},
+  title  = {Software op maat},
+  url    = {https://quivvy.com/nl/software},
+}
+
+@Online{Tasmia2022,
+  author       = {Ansari Tasmia},
+  date         = {2022-11-25},
+  editor       = {AIM},
+  title        = {10 Low-Code/No-Code Platforms Every Developer Should Know of},
+  url          = {https://analyticsindiamag.com/10-low-code-no-code-platforms-every-developer-should-know-of/},
+  organization = {Analytics India Mag},
+  urldate      = {2023-02-14},
+}
+
+@Online{Brown2022,
+  author       = {Hayley Brown},
+  date         = {2022-10-07},
+  editor       = {Cyclr},
+  title        = {Low-Code is revolutionising the software industry: what type is dominating?},
+  url          = {https://cyclr.com/blog/low-code-is-revolutionising-the-software-industry},
+  organization = {Cyclr},
+  urldate      = {2023-02-13},
+}
+
+@Online{Podio,
+  editor  = {Citrix Podio},
+  title   = {All you need to know about Podio.},
+  url     = {https://podio.com/site/tour},
+  urldate = {2023-02-14},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
