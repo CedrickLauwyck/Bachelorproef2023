@@ -11,5 +11,108 @@
 %% mogelijke manier toegepast hebt om een antwoord te vinden op de
 %% onderzoeksvraag.
 
-\lipsum[21-25]
+% TODO - Inleiding
 
+\section{Onderzoek}
+
+% TODO - Inleiding + uitleg
+
+\section{Vooronderzoek}
+
+\subsection{Requirements-analyse}
+% Vooronderzoek:
+% - Inleiding (Airtable reeds gekozen, nog een potentiele kandidaat op basis van volgende onderdelen)
+% - Databased omgeving ( Werkt met een database)
+% - Flexibiliteit: Moet niet in spelen op een bepaalde usecase, maar moet gebruikt kunnen worden voor elke context. Indien iets toch niet mogelijk is moeten er workarounds of extensies zijn die dit probleem verhelpen
+% - Gebruikersbasis: De kandidaat moet een stevige gebruikersbasis bezitten (< 250.000 gebruikers , < 3000 bedrijven)
+% - Stabiliteit: De kandidaat moet een stabiel platform zijn, hiermee wordt bedoeld dat het zich beperkt tot maximaal 2 incidenten per maand  https://www.saashub.com/appsheet-status
+% - Futureproof: De kandidaat moet een frequente updatecycli hebben, hiermee wordt bedoeld dat het een actief dev team heeft die het platform up to date houdt
+% - Workflow automations
+
+
+
+
+- lijst met criteria verder uitwerken -> aanvullen op basis van Use Case
+
+
+Om te bepalen welke platformen in aanspraak kwamen om te onderzoeken, wordt er gekeken naar volgende zaken.
+
+\begin{itemize}
+    \item Is het platform flexibel? Het alternatief mag niet beperkt zijn tot een bepaald type use case, maar moet gebruikt kunnen worden in elke context. Daarnaast moet het ook uitbreidbaar zijn via extensies of 
+    \item Heeft het platform een eigen API?
+    \item Heeft het platform een gezonde gebruikersbasis? % TODO ...
+    \item Is het platform stabiel? Hiermee wordt bedoeld dat het weinig downtime heeft en zich beperkt tot maximaal 2 incidenten per maand. 
+    \item Is het platform futureproof? Het platform moet frequent updates krijgen en dus een actief development team hebben.
+    \item Beschikt het platform over workflow automations of iets gelijkaardigs?
+\end{itemize}
+
+% - Tabel nocode/ lowcode LONG LIST
+\begin{table}[ht]
+    \centering
+    % TODO Add bron: https://analyticsindiamag.com/10-low-code-no-code-platforms-every-developer-should-know-of/ OK
+    \caption{\label{tab:Tabel 1} Lijst met Podio alternatieven die onderzocht kunnen worden \autocite{Tasmia2022}.}
+    \begin{tabular}{ | c | c | }
+        \hline
+        \textbf{Low-code platform} & \textbf{No-code platform}
+        \hline \\
+        Appian & Google AppSheet \\
+        Mendix & Notion \\
+        Nintex & Shopify \\
+        Visual LANSA & Airtable \\
+        Kissflow & Quixy \\
+        ZohoCreator & Caspio \\
+        % TODO nog toevoegen
+        \hline
+    \end{tabular}
+    
+    {\raggedright \textit{Opm. Er zijn nog alternatieven die niet in deze lijst vermeld staan.} \par}
+\end{table}
+
+% SHORT LIST
+% TODO keuze AirTable 
+% Introductie Airtable
+% criteria aflopen
+- Flexibel? 
+    - Airtable kan gebruikt worden in verschillende soorten use cases % (https://www.softr.io/airtable/airtable-use-cases)
+    - Er zijn ook verschillende soorten extensies mogelijk % (https://airtable.com/developers/web/api/introduction)
+- API? 
+    - Airtable heeft een API waarbij een hele reeks zaken mogelijk zijn %  (https://airtable.com/developers/web/api/introduction)
+- Gezonde gebruikersbasis?
+    - Airtable heeft 700 werknemers einde 2021
+    - In 2021 1 miljard dollar aan financiering opgehaald (vs 185 miljoen in 2020 => grote sprong)
+    - Conclusie, enorm aan het groeien %(https://www.mksguide.com/airtable-user-and-company-stats/)
+ - Stabiel?
+    - Airtable heeft de afgelopen 3 maanden gemiddeld 1 a 2 incidenten per maand gehad
+ - Futureproof?
+    - Zie gebruikersbasis, aantal werknemers is verdubbeld ten opzichte van vorige jaren => enorm aan het groeien, wat een goed teken is.
+    - Er zijn ook maandelijks updates % (https://www.airtable.com/whatsnew)
+- Automations
+    -  Airtable heeft automations waarmee je via triggers verschillende soorten actions kan triggeren. % (https://support.airtable.com/docs/getting-started-with-airtable-automations)
+
+% TODO keuze AppScheet
+% Introductie AppSheet
+% criteria aflopen
+- Flexibel?
+    - Door de vele voorgemaakte templates (sample apps) kan AppSheet in verschillende use cases gebruikt worden, maar het is minder flexibel dan Podio of Airtable
+    - Het kan gemakkelijk geintegreerd worden met verschillende technologieen aan de hand van de REST API en webhooks % (https://support.google.com/appsheet/answer/11628886?hl=en&ref_topic=11626905)
+    - Doordat het eigendom is van Google, heeft het veel integratiemogelijkheden met andere google services, dit kan zeker een meerwaarde bieden.
+- API? 
+    - Google Appsheet heeft een API, maar deze is minder uitgebreid dan AirTable % (https://support.google.com/appsheet/answer/10105768?hl=en)
+- Gebruikersbasis?
+    - 
+- Stabiel?
+    - Appsheet heeft geen problemen gehad de afgelopen maand % (https://www.saashub.com/appsheet-status)
+- Futureproof?
+    - Appsheet heeft bijna maandelijks updates  % (https://www.googlecloudcommunity.com/gc/Release-Notes-Announcements/ct-p/appsheet-releasenotes-announcements)
+    - In welke richting? (klein, groot, versiegeschiedenis, + templates? ...)
+    - Actueel?
+    - Uitbreiding, specialiseren?
+    
+- Automations? 
+    Automations zijn mogelijk
+\subsection{Airtable}
+
+\subsection{AppSheet}
+
+- extra bronnen op criteria
+- hoe literatuurstudie opbouwen?
