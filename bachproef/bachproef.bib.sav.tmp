@@ -1,0 +1,238 @@
+% Encoding: UTF-8
+
+@Article{Ruscio2022,
+  author       = {Davide Di~Ruscio and Dimitris Kolovos and Juan de Lara and Alfonso Pierantonio and Massimo Tisi and Manuel Wimmer},
+  date         = {2022-01},
+  journaltitle = {Software and Systems Modeling},
+  title        = {Low-code development and model-driven engineering: Two sides of the same coin?},
+  doi          = {10.1007/s10270-021-00970-2},
+  number       = {2},
+  pages        = {437--446},
+  volume       = {21},
+  publisher    = {Springer Science and Business Media {LLC}},
+}
+
+@Article{Waszkowski2019,
+  author   = {Robert Waszkowski},
+  journal  = {IFAC-PapersOnLine},
+  title    = {Low-code platform for automating business processes in manufacturing},
+  year     = {2019},
+  issn     = {2405-8963},
+  note     = {13th IFAC Workshop on Intelligent Manufacturing Systems IMS 2019},
+  number   = {10},
+  pages    = {376-381},
+  volume   = {52},
+  abstract = {The low-code platform enables quick generation and delivery of business applications with minimum effort to write in a coding language and requires the least possible effort for the installation and configuration of environments, and training and implementation. With a rapidly growing number of companies, the use of low-code solutions can be a significant step forward in creating essential business applications. This paper describes the use of the Aurea BPM low-code platform for automating business processes in manufacturing.},
+  doi      = {https://doi.org/10.1016/j.ifacol.2019.10.060},
+  keywords = {Low-code platform, Aurea BPM, manufacturing, business processes, process automation},
+  url      = {https://www.sciencedirect.com/science/article/pii/S2405896319309152},
+}
+
+@InProceedings{Sahay2020,
+  author = {Sahay, Apurvanand and Indamutsa, Arsene and Di Ruscio, Davide and Pierantonio, Alfonso},
+  title  = {Supporting the understanding and comparison of low-code development platforms},
+  year   = {2020},
+  month  = {08},
+  doi    = {10.1109/SEAA51224.2020.00036},
+}
+
+@Online{Crunchbase,
+  editor       = {Crunchbase},
+  organization = {Crunchbase},
+  title        = {Organization - Podio},
+  url          = {https://www.crunchbase.com/organization/podio},
+  urldate      = {2023-03-24},
+}
+
+@Online{Podio,
+  date    = {2022},
+  editor  = {Podio},
+  title   = {All you need to know about Podio.},
+  url     = {https://podio.com/site/tour},
+  urldate = {2023-02-14},
+}
+
+@Online{TallyfyPodio,
+  editor       = {Tallyfy},
+  organization = {TallyFy},
+  title        = {What is Podio – And How to Better Structure Your Business},
+  url          = {https://tallyfy.com/what-is-podio},
+  urldate      = {2023-03-24},
+}
+
+@Online{Quivvy,
+  editor = {Quivvy},
+  title  = {Software op maat},
+  url    = {https://quivvy.com/nl/software},
+}
+
+@Online{PodioFeatures,
+  date         = {2022},
+  editor       = {Podio},
+  organization = {Podio},
+  title        = {The features that give Podio its unrivalled flexibility},
+  url          = {https://podio.com/site/features-index},
+  urldate      = {2023-03-23},
+}
+
+@Online{PodioAPI2023,
+  date         = {2018},
+  editor       = {Podio},
+  file         = {:PodioAPI2023 - Getting Started with Podio API.bib:bib},
+  organization = {Citrix Podio},
+  title        = {Getting started with Podio API},
+  url          = {https://developers.podio.com},
+  urldate      = {2023-03-24},
+}
+
+@Online{PodioAPIWebhooks,
+  date         = {2018},
+  editor       = {Podio},
+  organization = {Citrix Podio},
+  title        = {Working with Webhooks},
+  url          = {https://developers.podio.com/examples/webhooks},
+  urldate      = {2023-03-24},
+}
+
+@Online{PodioExtensions,
+  date         = {2022},
+  editor       = {Podio},
+  organization = {Podio},
+  title        = {Extensions},
+  url          = {https://podio.com/extensions/},
+  urldate      = {2023-03-25},
+}
+
+@Online{PodioAPIConcepts,
+  date         = {2018},
+  editor       = {Podio},
+  organization = {Podio},
+  title        = {Concepts and conventions: Conventions and structure of the API},
+  url          = {https://developers.podio.com/index/api},
+  urldate      = {2023-03-26},
+}
+
+@Online{PodioWorkflowAutomation,
+  editor       = {Citrix Podio},
+  organization = {Citrix Podio},
+  title        = {Workflow Automation},
+  url          = {https://workflow-automation.podio.com/},
+  urldate      = {2023-03-26},
+}
+
+@Online{PodioWorkflowFeatures,
+  editor       = {Citrix Podio},
+  organization = {Citrix Podio},
+  title        = {Citrix Podio Workflow Automation Features},
+  url          = {https://workflow-automation.podio.com/features.php},
+  urldate      = {2023-03-26},
+}
+
+@Online{Black2019,
+  author       = {Nathan Black},
+  editor       = {AirReview},
+  month        = mar,
+  organization = {BuiltOnAir},
+  title        = {https://builtonair.com/a-brief-history-of-airtable/},
+  url          = {https://builtonair.com/a-brief-history-of-airtable/},
+  urldate      = {2023-03-27},
+  year         = {2019},
+}
+
+@Online{Shah,
+  author       = {Hiten Shah},
+  editor       = {Nira},
+  organization = {Nira},
+  title        = {https://nira.com/airtable-history/},
+  url          = {https://builtonair.com/a-brief-history-of-airtable/},
+  urldate      = {2023-03-27},
+}
+
+@Online{AppSheet2020,
+  editor  = {Google AppSheet},
+  title   = {The fastest way to build apps and automate work},
+  url     = {https://about.appsheet.com/home/},
+  urldate = {2022-12-10},
+  year    = {2020},
+}
+
+@InProceedings{Petrovic2020,
+  author = {Petrovic, Nenad and Roblek, Vasja and Radenković, Maša and Nejkovic, Valentina},
+  title  = {Approach to Rapid Development of Data-Driven Applications for Smart Cities using AppSheet and Apps Script},
+  year   = {2020},
+  month  = {10},
+}
+
+@Online{AirtableWhat,
+  author       = {Airtable},
+  editor       = {Airtable},
+  organization = {Airtable},
+  title        = {What is Airtable?},
+  url          = {https://www.airtable.com/guides/start/what-is-airtable},
+  urldate      = {2023-03-28},
+}
+
+@Online{AirtableAPI,
+  author       = {Airtable},
+  editor       = {Airtable},
+  organization = {Airtable},
+  title        = {API reference},
+  url          = {https://airtable.com/developers/web/api/introduction},
+  urldate      = {2023-03-29},
+}
+
+@Online{AirtableAPIAuthentication,
+  author       = {Airtable},
+  editor       = {Airtable},
+  organization = {Airtable},
+  title        = {Authentication},
+  url          = {https://airtable.com/developers/web/api/authentication},
+  urldate      = {2023-03-29},
+}
+
+@Online{AirtableAPIScopes,
+  author       = {Airtable},
+  editor       = {Airtable},
+  organization = {Airtable},
+  title        = {Scopes},
+  url          = {https://airtable.com/developers/web/api/scopes},
+  urldate      = {2023-03-29},
+}
+
+@Online{AppSheetTemplates,
+  author       = {AppSheet},
+  editor       = {AppSheet},
+  organization = {GoogleAppSheet},
+  title        = {App templates},
+  url          = {https://www.appsheet.com/templates},
+  urldate      = {2023-03-31},
+}
+
+@Online{AppSheetHowToCreate,
+  author       = {AppSheet},
+  editor       = {AppSheet},
+  organization = {GoogleAppSheet},
+  title        = {How to Create an App},
+  url          = {https://about.appsheet.com/how-to-create-an-app/},
+  urldate      = {2023-03-31},
+}
+
+@InProceedings{Ferreira2019,
+  author = {Ant{\'o}nio M. S. Ferreira},
+  title  = {Integration of Visual Languages with SCS tools in the Software Development Industry},
+  year   = {2019},
+}
+
+@Misc{Yan2021,
+  author    = {Yan, Zhaohang},
+  title     = {The Impacts of Low/No-Code Development on Digital Transformation and Software Development},
+  year      = {2021},
+  copyright = {Creative Commons Attribution 4.0 International},
+  doi       = {10.48550/ARXIV.2112.14073},
+  keywords  = {Computers and Society (cs.CY), FOS: Computer and information sciences},
+  publisher = {arXiv},
+}
+
+@InProceedings{Ploder2019,
+  author    = {Christian Ploder and Reinhard Bernsteiner and Stephan Schl{\"o}gl and Christoph Gschliesser},
+  booktitle = {International C
