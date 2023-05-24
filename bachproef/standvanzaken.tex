@@ -20,12 +20,12 @@ In de stand van zaken wordt eerst en vooral toegelicht wat een no-code/low-code 
 % https://link.springer.com/article/10.1007/s10270-021-00970-2
 % Supporting-the-understanding-and-comparison-of-low-code-development-platforms.pdf
 
-Eerst en vooral is het belangrijk om toe te lichten wat er verstaan wordt onder de term 'low-code development platform'. Zoals weergegeven in figuur \ref{fig:lcdp_history} dateert de eerste vermelding van de term \textit{low-code} in 2014. Toen werden ze gedefinieerd als `platformen die een snelle oplevering van business applicaties toestaan, met een minimum aan handgeschreven code en investering in setup, training en deployment` \autocite{Ruscio2022}. In 2017 werd deze definitie echter bijgewerkt tot een meer gedetailleerde variant, low-code development platforms (LCDP's) werden omschreven als `product en/of cloud services voor het ontwikkelen van applicaties die visuele, declaratieve technieken gebruiken in plaats van programmeren en die toegankelijk zijn tot gebruikers voor een minimum van training of kosten` \autocite{Ruscio2022}. \\
+Eerst en vooral is het belangrijk om toe te lichten wat er verstaan wordt onder de term 'low-code development platform'. Zoals weergegeven in figuur \ref{fig:lcdp_history} dateert de eerste vermelding van de term \textit{low-code} in 2014. Toen werden ze gedefinieerd als `platformen die een snelle oplevering van business applicaties toestaan, met een minimum aan handgeschreven code en investering in setup, training en deployment` \autocite{Ruscio2022}. In 2017 werd deze definitie echter bijgewerkt tot een meer gedetailleerde variant, low-code development platforms (LCDP's) werden omschreven als 'product en/of cloud services voor het ontwikkelen van applicaties die visuele, declaratieve technieken gebruiken in plaats van programmeren en die toegankelijk zijn tot gebruikers voor een minimum van training of kosten' \autocite{Ruscio2022}. \\
 
-\begin{figure}[h]
+\begin{figure}[hb]
     \centering
     \includegraphics{LCDP_MajorEvents.jpg}
-    \caption{Korte historie van low-code development platforms \autocite{Ruscio2022}.}
+    \caption[Geschiedenis low-code development platforms]{Korte historie van low-code development platforms \autocite{Ruscio2022}.}
     \label{fig:lcdp_history}
 \end{figure}
 
@@ -36,24 +36,29 @@ Een low-code platform wordt door \textcite{Waszkowski2019} omschreven als 'Een s
 
 In het algemeen bestaan low-code platformen uit vier lagen, zoals weergegeven in figuur \ref{fig:lcdp_structure}. De bovenste laag of Application Layer bevat de GUI waarmee de gebruiker gaan interageren om hun gewenste applicatie op te bouwen. Daarbovenop bevat deze laag de authenticatie en autorisatie mechanismen. De tweede laag of Service Integration Layer maakt verbinding met verschillende diensten aan de hand van API's en authenticatiemechanismen. Vervolgens is er de Data Integration Layer, deze houdt zich bezig met de integratie van gegevens uit verschillende bronnen. Ten slotte is er nog de Deployment Layer die de ontwikkelde applicatie zal opzetten in speciale cloud infrastructuren of on-premise omgevingen, waarbij containerisatie, orkestratie en continue integratie en deployment (CI/CD) gefaciliteerd worden. \\
 
-\begin{figure}[ht]
+\begin{figure}[hb]
     \centering
-    \includegraphics[width=\linewidth]{LCDP_Structure.png}
-    \caption{Algemene structuur van low-code development platforms \autocite{Sahay2020}.}
+    \includegraphics{LCDP_Structure.png}
+    \caption[Structuur low-code platforms]{Algemene structuur van low-code development platforms \autocite{Sahay2020}.}
     \label{fig:lcdp_structure}
 \end{figure}
 
-De ontwikkeling van een applicatie aan de hand van LCDP's verloopt in verschillende stappen, die in een studie van \textcite{Ruscio2022} uitgebreid worden besproken. In de eerste fase definiëren gebruikers de concepten en relaties in de applicatie om op die manier het domein te modelleren. Dit gebeurt meestal met behulp van modelleer constructen zoals drag-and-drop die door het platform worden meegeleverd. In de volgende fase, de specificatie van businesslogica, worden de controle- en gegevensstromen van het systeem gedefinieerd zoals grafische workflows. LCDP's voorzien ook interoperabiliteit met externe services en datasources, zodat gebruikers kunnen verbinden en integreren met systemen van derden. Zodra de gewenste applicatie is gespecificeerd en gebouwd, kan het worden gedeployed in een publieke of private omgeving. Vaak gaat deze deployement door in cloud-infrastructuren. De laatste fase is het onderhouden van de applicatie, in de meeste gevallen heeft een low-code development platform features om te reageren op onvoorziene requirements of problemen die kunnen voorkomen terwijl de applicatie online staat . \\
+De ontwikkeling van een applicatie aan de hand van LCDP's verloopt in verschillende stappen, die in een studie van \textcite{Ruscio2022} uitgebreid worden besproken. In de eerste fase definiëren gebruikers de concepten en relaties in de applicatie om op die manier het domein te modelleren. Dit gebeurt meestal met behulp van methodes zoals drag-and-drop die door het platform worden meegeleverd. In de volgende fase, de specificatie van businesslogica, worden de controle- en gegevensstromen van het systeem gedefinieerd zoals grafische workflows. LCDP's voorzien ook interoperabiliteit met externe services en datasources, zodat gebruikers kunnen verbinden en integreren met systemen van derden. Zodra de gewenste applicatie is gespecificeerd en gebouwd, kan het worden gedeployed in een publieke of private omgeving. Vaak gaat deze deployement door in cloud-infrastructuren. De laatste fase is het onderhouden van de applicatie, in de meeste gevallen heeft een low-code development platform features om te reageren op onvoorziene requirements of problemen die kunnen voorkomen terwijl de applicatie online staat . \\
 
 \subsection{Verschillen tussen low-code en no-code}
 \label{subsec:verschillen_low_code}
 
-No-code en low-code development platformen zijn op zich heel gelijkaardig aan elkaar, beide stellen namelijk een gebruiker in staat om applicaties te ontwikkelen met weinig tot geen code. Toch zijn er enkele kleine verschillen tussen beide, deze verschillen gaan vooral over wat mogelijk is en wat niet mogelijk is bij elk type \autocite{Yan2021}. Ten eerste zijn low-code platformen in het algemeen meer complex dan no-code platformen, waardoor er meer technische kennis nodig is om ze goed te gebruiken. Daarnaast bieden ze ook meer opties bij het personaliseren van een applicatie en laten ze toe om meer geavanceerde applicaties te bouwen. Verder gaan low-code platformen meestal eenvoudiger te integreren zijn met bestaande systemen, omdat ze flexibeler zijn. Kortom hebben zowel no-code als low-code development platforms hun voordelen en nadelen. Welk platform een organisatie gebruikt, hangt dus vooral af van hun specifieke behoeften en technische expertise \autocite{Yan2021}.
+No-code en low-code development platformen zijn op zich heel gelijkaardig aan elkaar, beide stellen namelijk een gebruiker in staat om applicaties te ontwikkelen met weinig tot geen code. Toch zijn er enkele kleine verschillen tussen beide, deze verschillen gaan vooral over wat mogelijk is en wat niet mogelijk is bij elk type \autocite{Yan2021}. Ten eerste zijn low-code platformen in het algemeen meer complex dan no-code platformen, waardoor er meer technische kennis nodig is om ze goed te gebruiken. Daarnaast bieden ze wel meer opties bij het personaliseren van een applicatie en laten ze toe om meer geavanceerde applicaties te bouwen. Verder gaan low-code platformen meestal eenvoudiger te integreren zijn met bestaande systemen, omdat ze flexibeler zijn. Kortom hebben zowel no-code als low-code development platforms hun voordelen en nadelen. Welk platform een organisatie gebruikt, hangt dus vooral af van hun specifieke behoeften en technische expertise \autocite{Yan2021}.
 
-\subsection{Uitdagingen voor no-code/low-code development}
+\subsection{Waarom bedrijven kiezen voor low-code/no-code}
+\label{subsec:waarom_low-code}
+
+Bedrijven kiezen om verschillende redenen voor low-code/no-code platforms. In een studie van \textcite{Yan2021} wordt aangegeven dat deze platformen, door middel van methoden zoals drag-and-drop, snellere ontwikkeling dan traditionele coderingsmethoden mogelijk maken. Verder zijn low-code-platforms gebruiksvriendelijk ontworpen, zodat niet-technische gebruikers applicaties kunnen maken zonder afhankelijk te zijn van bepaalde IT-vaardigheden. Bovendien bieden low-code platforms kostenbesparingen tot 90\% bij de ontwikkeling van applicaties. Door het coderen en testen te verminderen, kunnen bedrijven tijd en middelen besparen. Daarnaast geeft deze studie ook aan dat low-code-platforms snelle en eenvoudige wijzigingen in de applicatie mogelijk te maken. Bedrijven kunnen dus snel reageren op veranderende bedrijfsbehoeften, waardoor ze zich beter kunnen aanpassen in een dynamische marktomgeving. Daarbovenop bieden low-code-platforms een gecentraliseerde omgeving voor efficiënt applicatiebeheer. Deze gecentraliseerde aanpak vereenvoudigt het onderhoud van applicaties en stroomlijnt de bedrijfsvoering. In het algemeen bieden low-code/no-code platforms aanzienlijke voordelen voor bedrijven die snel, gemakkelijk en kosteneffectief applicaties willen ontwikkelen. Ze verlagen de ontwikkelingskosten, vergroten de flexibiliteit, stroomlijnen het beheer en bevorderen innovatie \autocite{Yan2021}.
+
+\subsection{Uitdagingen voor low-code/no-code development}
 \label{subsec:uitdagingen_low_code}
 
-No-code en low-code ontwikkeling zijn de laatste jaren steeds populairder geworden omdat ze non-IT-professionals in staat stellen snel eenvoudige business applicaties te bouwen zonder of met weinig codering \autocite{Yan2021}. Toch zijn er nog enkele uitdagingen verbonden aan deze methode van development. \\
+Desondanks het feit dat low-code/no-code ontwikkeling de laatste jaren steeds populairder geworden is bij bedrijven, zijn er toch nog enkele uitdagingen verbonden aan deze methode van development. \\
 
 \begin{itemize}
     \item \textbf{Beperkte aanpasbaarheid}: No-code/low-code platformen maken vaak gebruik van vooraf gebouwde componenten of templates. Hierdoor wordt de vrijheid voor het personaliseren van een applicatie beperkter \autocite{Yan2021}.
