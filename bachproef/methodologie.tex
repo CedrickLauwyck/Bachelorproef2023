@@ -12,22 +12,23 @@
 %% mogelijke manier toegepast hebt om een antwoord te vinden op de
 %% onderzoeksvraag.
 
-Nu toegelicht is wat een low-code development platform precies is en hoe deze werken, kan er worden overgaan tot de vergelijkende studie zelf. In dit hoofdstuk wordt de methodologie van het onderzoek beschreven en uitgelegd. Dit is deels een vervolgstuk op de technologieën die in de literatuurstudie besproken werden. Eerst en vooral komt de requirementsanalyse en het vooronderzoek aan bod, waaruit de potentiële kandidaten voor de vergelijkende studie bekomen worden. Daarna wordt een use case opgesteld, die dan zal in het volgende hoofdstuk uitgebouwd worden in Podio en de verschillende alternatieven. Ten slotte wordt een set van criteria opgesteld die tijdens het onderzoek zal gebruikt worden om de alternatieven te vergelijken met Podio. \\
+Nu toegelicht is wat een low-code development platform precies is en hoe het werkt, kan er worden overgaan tot de vergelijkende studie zelf. In dit hoofdstuk wordt de methodologie van het onderzoek beschreven en uitgelegd. Dit is deels een vervolgstuk op de technologieën die in de literatuurstudie besproken werden. Eerst en vooral komt de requirementsanalyse aan bod, waaruit de potentiële kandidaten voor de vergelijkende studie bekomen worden. Daarna wordt een use case opgesteld, die dan zal in het volgende hoofdstuk uitgebouwd worden in Podio en de verschillende alternatieven om vergelijkingen te maken. Ten slotte wordt een set van criteria opgesteld die tijdens het onderzoek zal gebruikt worden om de alternatieven te vergelijken met Podio. \\
 
-Omdat Quivvy Solutions het belangrijk vindt up-to-date te blijven over diverse low-code platformen, hebben ze zelf reeds onderzoek gedaan naar een potentieel alternatief. Om die redenen is een van de kandidaten, Airtable, reeds gekozen uit de long list van kandidaten. Dit is één van de platformen waar het bedrijf veel interesse in heeft en graag zou laten onderzoeken. Desondanks het feit dat het reeds geselecteerd is, zal in het vooronderzoek de verschillende vereisten voor Airtable toch nog overlopen worden. \\
+Omdat Quivvy Solutions het belangrijk vindt up-to-date te blijven over diverse low-code platformen, hebben ze zelf reeds onderzoek gedaan naar een potentieel alternatief. Om die redenen is een van de kandidaten, Airtable, reeds gekozen uit de long list van kandidaten. Dit is één van de platformen waar het bedrijf veel interesse in heeft en graag zou laten onderzoeken. Desondanks het feit dat het platform reeds geselecteerd is, zal na de requirements analyse de verschillende vereisten voor Airtable toch overlopen worden. Dit om aan te tonen dat het een volwaardige kandidaat is voor het onderzoek. \\
 
 
-\subsection{Requirements-analyse}
+\section{Requirementsanalyse}
+\label{sec:requirementsanalyse}
 
 De requirements voor een goed alternatief werden opgesteld aan de hand van de noden van Quivvy Solutions. Zij ontwikkelen low-code oplossingen voor kleine tot middelgrote bedrijven en gebruiken daarvoor voornamelijk Podio. De platformen moeten dus op zijn minst over de basisfunctionaliteiten van Podio beschikken. Bovendien moet er ook nagegaan worden of de alternatieven een goede toekomst hebben. Uiteindelijk werden de nodige vereisten verder opgedeeld in functionele en niet-functionele vereisten. \\
 
 \textbf{Functionele vereisten:}
 
 \begin{itemize}
-    \item De datastructuur moet bestaan uit een enkele database die zich als\textbf{`Single source of truth}` voordoet. Met andere woorden, het platform moet voor een applicatie een enkele database voorzien zodat alle data slechts op één plek wordt opgeslagen.
+    \item De datastructuur moet bestaan uit een enkele database die zich als \textbf{`Single source of truth}` voordoet. Met andere woorden, het platform moet voor een applicatie een enkele database voorzien zodat alle data slechts op één plek wordt opgeslagen.
     \item Het platform moet over een bepaald minimum aan \textbf{flexibiliteit} bezitten. Dit betekent het zich niet mag focussen op specifieke use cases, maar dat het gebruikt kan worden voor elke context. Indien iets toch niet mogelijk is, moeten er workarounds of extensies aanwezig zijn die dit probleem verhelpen.
     \item Het platform moet in staat zijn om zaken zoals \textbf{workflows te automatiseren}.
-    \item Het platform moet over een \textbf{eigen AP}I bezitten.
+    \item Het platform moet over een \textbf{eigen API} bezitten.
 \end{itemize}
 
 \textbf{Niet-functionele vereisten:} 
@@ -40,13 +41,13 @@ De requirements voor een goed alternatief werden opgesteld aan de hand van de no
 \end{itemize}
 
 
-\subsection{Long list}
-% - Tabel   nocode/ lowcode LONG LIST
+\section{Long list}
+\label{sec:long_list}
 
-Na het definiëren van de requirements kan een long list van potentiële alternatieven worden opgesteld, deze lijst is terug te vinden in Tabel \ref{tab:Tabel 3}. Verder wordt er ook steeds aangeduid of het platform no-code, low-code of beide is.
-\begin{table}[ht]
+Na het definiëren van de requirements kan een long list van potentiële alternatieven worden opgesteld, deze lijst is terug te vinden in Tabel \ref{tab:Tabel 3}. Verder wordt er ook steeds aangeduid of het platform no-code, low-code of beide is. \\
+
+\begin{table}[h]
     \centering
-    % TODO Add bron: https://analyticsindiamag.com/10-low-code-no-code-platforms-every-developer-should-know-of/ OK
     \caption{\label{tab:Tabel 3} Lijst met Podio alternatieven die onderzocht kunnen worden \autocite{Tasmia2022}.}
     \begin{tabular}{ | p{5cm} | p{2cm} | p{2cm} | }
         \hline
@@ -59,11 +60,11 @@ Na het definiëren van de requirements kan een long list van potentiële alterna
         Notion              &                   & \symbol{"2713} \\
         Nintex              & \symbol{"2713}    & \symbol{"2713} \\
         Shopify             & \symbol{"2713}    & \symbol{"2713} \\
-        Visual LANSA        & \symbol{"2713}    &   \\
-        Kissflow            & \symbol{"2713}    &   \\
-        Quixy               &                   & \symbol{"2713}  \\
-        ZohoCreator         & \symbol{"2713}    &    \\
-        Caspio              &                   & \symbol{"2713}  \\
+        Visual LANSA        & \symbol{"2713}    &                \\
+        Kissflow            & \symbol{"2713}    &                \\
+        Quixy               &                   & \symbol{"2713} \\
+        ZohoCreator         & \symbol{"2713}    &                \\
+        Caspio              &                   & \symbol{"2713} \\
         \hline
     \end{tabular}
     
@@ -72,45 +73,53 @@ Na het definiëren van de requirements kan een long list van potentiële alterna
 
 \subsection{Short list}
 
-Uit de long list werden Airtable en Google AppSheet gekozen, deze twee vormen samen de Short List voor het onderzoek. In de volgende 2 secties wordt de keuze voor deze kandidaten onderbouwd. 
+Uit de long list werden Airtable en Google AppSheet gekozen, deze twee vormen samen de Short List voor het onderzoek. In de volgende twee secties wordt de keuze voor deze kandidaten onderbouwd. 
 
 \subsection{Airtable} 
 
 % Low-code / Flexibel
-Airtable is low-code en voorziet voorgemaakte templates voor tal van diverse use cases, zoals een `Product Catalog` of een `Customer Relationship Management (CRM)`. Daarnaast heeft de gebruiker natuurlijk ook de mogelijkheid om zelf een applicatie op te bouwen. Om die redenen kan het dus zeker als een flexibel platform beschouwd worden. \\
-% TODO - https://www.softr.io/airtable/airtable-use-cases
+Airtable is low-code en voorziet pasklare templates voor tal van diverse use cases, zoals een 'Product Catalog' of een 'Customer Relationship Management (CRM)' \autocite{Maout2022}. Daarnaast heeft de gebruiker natuurlijk ook de mogelijkheid om zelf een applicatie op te bouwen. Om die redenen kan het dus zeker als een flexibel platform beschouwd worden. \\
+% https://www.softr.io/airtable/airtable-use-cases
 
 % API / Automations
-Zoals in de sectie \ref{subsec:airtable_web_API} werd vermeld, bevat Airtable ook een krachtige API die het verkrijgen, aanmaken, updaten en verwijderen van een of meerdere records voorziet. Vervolgens zijn ook automatisaties mogelijk met Airtable. Via triggers kan men verschillende soorten actions automatisch laten uitvoeren. \\
-% TODO - https://airtable.com/developers/web/api/introduction (al aanwezig in bibtex)
-% TODO - https://support.airtable.com/docs/getting-started-with-airtable-automations
+Zoals in de sectie \ref{subsec:airtable_web_API} werd vermeld, bevat Airtable ook een krachtige API die het verkrijgen, aanmaken, updaten en verwijderen van een of meerdere records voorziet. Vervolgens zijn ook automatisaties mogelijk met Airtable. Via triggers kan men verschillende soorten actions automatisch laten uitvoeren \autocite{AirtableAutomations2023}. \\
+% https://support.airtable.com/docs/getting-started-with-airtable-automations
 
 % Futureproof
-Toen het bedrijf in 2013 begon, had het minder dan 10 werknemers en was er slechts 3 miljoen dollar aan financiering beschikbaar. Maar tegen het einde van 2021 had Airtable aanzienlijke vooruitgang geboekt: het beschikte op dat moment ongeveer over 700 werknemers en wist maar liefst één miljard dollar aan financiering op te halen. Dit is een enorme verbetering ten opzichte van het voorgaande jaar, waarin slechts 185 miljoen dollar werd opgehaald. Bovendien werd in 2021 de waarde van Airtable geschat op 11,7 miljard dollar, wat ongeveer 5 miljard meer is dan in 2020. Ten slotte is de jaarlijkse groei van het bedrijf is ongeveer 39\% en brengt het maandelijks meerdere updates uit. Uit voorgaande informatie kan dus besloten worden dat het platform zeker futureproof is. \\
-% TODO - https://www.mksguide.com/airtable-user-and-company-stats/
-% TODO - Invoegen Airtable_Valuation_2018_To_2021.png
+Toen het bedrijf in 2013 begon, had het minder dan tien werknemers en was er slechts drie miljoen dollar aan financiering beschikbaar. Maar tegen het einde van 2021 had Airtable aanzienlijke vooruitgang geboekt: het beschikte op dat moment over ongeveer 700 werknemers en wist maar liefst één miljard dollar aan financiering op te halen. Dit is een enorme verbetering ten opzichte van het voorgaande jaar, waarin slechts 185 miljoen dollar werd opgehaald \autocite{Khemchandani2023}. Bovendien werd de waarde van Zoals te zien is in figuur \ref{fig:airtable_value} werd Airtable in 2021 geschat op 11,7 miljard dollar, wat ongeveer vijf miljard meer is dan in 2020. Ten slotte is de jaarlijkse groei van het bedrijf is ongeveer 39\% en brengt het maandelijks meerdere updates uit. Uit voorgaande informatie kan dus besloten worden dat het platform zeker futureproof is. \\
+% https://www.mksguide.com/airtable-user-and-company-stats/
+
+\begin{figure}[h]
+    \centering
+    \includegraphics{methodologie/Airtable_Valuation_2018_To_2021.png}
+    \caption[Geschatte waarde Airtable]{Geschatte waarde van Airtable van 2018 tot 2021 \autocite{Khemchandani2023}.}
+    \label{fig:airtable_value}
+\end{figure}
 
 % Stabiel
-Airtable heeft de afgelopen 2 jaar (januari 2021 tot december 2022) gemiddeld 1 à 2 incidenten per maand gehad, deze incidenten werden meestal ook de dag zelf nog opgelost . Het voldoet dus aan de vastgelegde requirement. \\
-% TODO - https://status.airtable.com/history
+Airtable heeft de afgelopen twee jaar (januari 2021 tot december 2022) gemiddeld één tot twee incidenten per maand gehad, deze incidenten werden meestal ook de dag zelf nog opgelost \autoref{AirtableStatus2023}. Het voldoet dus aan de vastgelegde requirement. \\
+% https://status.airtable.com/history
 
 % Gebruikersbasis
-Airtable wordt gebruikt door meer dan 300.000 bedrijven, waaronder Shopify, Nike en AT\&T. Bovendien gebruikt 80\% van de `Fortune 100`\footnote{Groep met de 100 grootste bedrijven van de Verenigde Staten} het platform. Vervolgens heeft meer dan 30\% van de klanten zich ingeschreven voor een betaald plan. \\
-% TODO - https://nira.com/companies-that-use-airtable/
+Airtable wordt gebruikt door meer dan 300.000 bedrijven, waaronder Shopify, Nike en AT\&T. Bovendien gebruikt 80\% van de `Fortune 100`\footnote{Groep met de 100 grootste bedrijven van de Verenigde Staten} het platform \autocite{Prokopets2022}. Daarnaast heeft meer dan 30\% van de klanten zich ingeschreven voor een betaald plan. Hieruit kan dus afgeleid worden dat het platform een goede gebruikersbasis heeft. \\
+% https://nira.com/companies-that-use-airtable/
 
 
-\subsection{AppSheet} % TODO - keuze AppSheet - NOK
+\subsection{AppSheet}
 
 % Low-code / Flexibel
-De tweede kandidaat voor het onderzoek is het no-code platform Google AppSheet. Het voorziet een groot aantal voorgemaakte templates of 'sample apps' die voor verschillende use cases gebruikt kunnen worden. Alhoewel het platform in het algemeen minder flexibel is dan Podio of Airtable, voldoet het wel aan de requirement. Verder heeft het platform ook een eigen API, maar deze is iets minder uitgebreid dan diegene van Airtable of Podio \\
+De tweede kandidaat voor het onderzoek is het no-code platform Google AppSheet. Het voorziet een groot aantal voorgemaakte templates of 'sample apps' die voor verschillende use cases gebruikt kunnen worden \autocite{AppSheetTemplates}. Alhoewel het platform in het algemeen minder flexibel is dan Podio of Airtable, voldoet het wel aan de requirement. Verder heeft het platform ook een eigen API, maar deze is iets minder uitgebreid dan diegene van Airtable of Podio \autocite{AppSheetAPI}. \\
+% https://hawksey.info/blog/2023/03/introducing-appsheetapp-a-google-apps-script-library-helper-class-for-the-appsheet-api/?amp=1
 
-Daarnaast wordt het platform vaak gebruikt door organisaties met meer dan 10.000 werknemers. Meta Platforms, Inc.\footnote{https://www.meta.com/} of kortweg Meta, het Amerikaans moederbedrijf van ondere andere facebook, is maakt bijvoorbeeld gebruik van AppSheet. Verder is het platform geïntegreerd met Google Workspace en wordt ervan verwacht dat het blijft groeien. Bovendien heeft Google Workspace in 2022 aangekondigd dat ze van plan zijn om te investeren in cursussen en opleidingen voor AppSheet. Uit voorgaande informatie kan dus besloten worden dat AppSheet ook een futureproof platform is. \\ 
+Daarnaast wordt het platform vaak gebruikt door organisaties met meer dan 10.000 werknemers \autocite{Enlyft}. Meta Platforms, Inc.\footnote{https://www.meta.com/} of kortweg Meta, het Amerikaans moederbedrijf van ondere andere facebook, maakt bijvoorbeeld gebruik van AppSheet. Verder is het platform geïntegreerd met Google Workspace en wordt ervan verwacht dat het blijft groeien \autocite{Anand2022}. Bovendien heeft Google Workspace in 2022 aangekondigd dat ze van plan zijn om te investeren in cursussen en opleidingen voor AppSheet. Uit voorgaande informatie kan dus besloten worden dat AppSheet ook een futureproof platform is. \\ 
+% https://enlyft.com/tech/products/appsheet
+% https://workspace.google.com/blog/product-announcements/hidden-secret-open-secret-year-ahead-appsheet
 
-Vervolgens kan er besloten worden dat AppSheet voldoet aan de stabiliteits-requirement. Sinds begin 2023 heeft het platform nog maar één keer down time gehad, namelijk in januari 2023. \\
-%TODO - https://www.saashub.com/appsheet-status
+Vervolgens kan er besloten worden dat AppSheet voldoet aan de stabiliteits-requirement. Sinds begin 2023 heeft het platform nog maar één keer down time gehad, namelijk in januari 2023 \autocite{AppSheetStatus}. \\
+% https://www.saashub.com/appsheet-status
 
-Ten slotte zijn ook tal van automatisaties mogelijk via AppSheet, die in het platform 'bots' genoemd worden. \\
-%TODO - https://workspace.google.com/blog/product-announcements/hidden-secret-open-secret-year-ahead-appsheet
+Ten slotte zijn ook tal van automatisaties mogelijk via AppSheet, die in het platform 'bots' genoemd worden \autocite{Wong2021}. \\
+% https://workspace.google.com/blog/developers-practitioners/what-no-code-automation-looks-appsheet
 
 
 \section{De uit te bouwen Use Case}

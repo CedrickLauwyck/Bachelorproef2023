@@ -80,7 +80,7 @@ Nadat de workspace is aangemaakt, kan voor elk onderwerp uit de analyse een app 
 
 Eens alle apps aangemaakt zijn, is de fundering van de use case afgewerkt. Nu kan er over gegaan worden tot het instellen van de verschillende attributen en relaties. Dit is mogelijk in 2 simpele klikken, namelijk door naar de app te navigeren en vervolgens via het ‘moersleutel’-icoontje de verschillende instellingen van de openen. Daarna kan men via een derde klik de template van de app gaan bewerken. Zoals eerder vermeld is een template een samenstelling van verschillende types velden die Podio voorziet. Voor de use case wordt dus elk voor elk attribuut van de app een veld toegevoegd. Ter illustratie wordt in figuur \ref{fig:meth_podio_dossierTemplate} de uitgewerkte template voor de 'Dossiers' app van de use case weergegeven. Eerst een vooral werd een calculatieveld toegevoegd voor de ID van het dossier. In dit veld komt het low-code gedeelte van Podio aan bod, het veld accepteert namelijk JavaScript en kan op allerlei manieren gebruikt worden. De laatste lijn in het calculatie veld is wat er uiteindelijk wordt weergegeven, daaronder is ook een preview zichtbaar. In het geval van een dossier wordt een stuk tekst samengevoegd met de ID van de student. Vervolgens wordt een simpel tekstveld gebruikt voor de titel van het dossier, gevolgd door 2 relatievelden om de student en begeleider te linken. Daarna wordt een categorieveld ingevoegd met de opties `Evaluatie` en `Sollicitatie`, dit zal later gebruikt worden voor het toevoegen van een evaluatie of sollicitatie via automatisaties. Podio voorziet namelijk geen knop velden, om die reden wordt een categorie veld gebruikt als workaround. Verder worden nog 2 relatievelden toegevoegd en nog een calculatieveld waarin de totaalscore van de evaluaties wordt uitgerekend en weergegeven. Het is belangrijk om te vermelden dat er voor elk een set van opties beschikbaar zijn, om bijvoorbeeld het veld verplicht te maken of om het aantal relaties in een relatieveld te beperken. \\
 
-\begin{figure}[ht]
+\begin{figure}[h]
     \centering
     \includegraphics[width=\linewidth]{methodologie/Podio_dossierTemplate.jpg}
     \caption{Uitgewerkte template van de 'Dossier' app.}
@@ -89,7 +89,7 @@ Eens alle apps aangemaakt zijn, is de fundering van de use case afgewerkt. Nu ka
 
 Om de data mooi weer te geven wordt als extra ook de layout aangepast. Podio voorziet standaard 5 verschillende layouts, namelijk 'Badge', 'Table', 'Card', 'Activity' en 'Calender', verder kunnen ook nog filters ingesteld worden op de attributen van een app. Eens alles geconfigureerd is naar keuze kan ten slotte de weergave als view worden opgeslagen. In figuur \ref{fig:meth_podio_badgeLayout} is een voorbeeld van de badge layout te zien. Bovendien kan men voor elke app via de 'Layout options' selecteren welke velden men wil weergeven op een individuele badge. \\
 
-\begin{figure}[ht]
+\begin{figure}[h]
     \centering
     \includegraphics[width=\linewidth]{methodologie/Podio_badgeLayout.jpg}
     \caption{Badge layout in Podio.}
@@ -100,7 +100,7 @@ De volgende stap is om de automatisaties of workflows toe te voegen, dit gebeurt
 
 In figuur \ref{fig:meth_podio_workflow} is terug een uitgewerkt voorbeeld te zien, namelijk het omvormen van een dossier tot pdf bestand. De trigger voor deze workflow is het updaten van een dossier, in de filters wordt dit dan verfijnd tot het updaten van het 'verwerken' veld. Eens dit op `Omzetten naar PDF` wordt gezet, zal de flow verdergaan naar de acties, bij een andere waarde wordt de flow beëindigt. Bij de eerste actie wordt een variabele opgeslagen met het jaartal van creatiedatum van het dossier, deze zal dan later gebruikt worden in de template voor het omvormen naar PDF. Vervolgens wordt de data van enkele referenties opgehaald, namelijk de informatie over de student, studierichting en het bedrijf. Daarna komt het omzetten naar PDF bestand, men kan volledig zelf een template opbouwen met alle nodige informatie uit Podio. Bovendien is het ook mogelijk om een footer en header in te stellen, voor onze use case wordt in de footer bijvoorbeeld informatie over Hogeschool Gent weergegeven. Er hoeft geen actie toegevoegd te worden om de gemaakte PDF aan het item zelf te hangen, want dit zit namelijk inbegrepen in de actie. Indien men het bestand zou willen doormailen kan dat eenvoudig door vanuit deze workflow een andere workflow te activeren en vervolgens de PDF mee te geven. De voorlaatste stap van automatisatie is het `Dossier` item terug updaten om het 'Toevoegen' veld terug op leeg te zetten. Ten slotte worden nog enkele acties toegevoegd om de referenties die eerder werden opgehaald terug op te ruimen, eens dit gebeurt is, is de workflow afgewerkt. \\
 
-\begin{figure}[ht]
+\begin{figure}[h]
     \centering
     \includegraphics[width=\linewidth]{methodologie/Podio_workflow.jpg}
     \caption{Workflow in Globiflow.}
@@ -122,7 +122,7 @@ Nu de use case uitgewerkt is in Podio kan overgegaan worden naar het eerste pote
 
 Wanneer alle tabellen aangemaakt zijn, ziet de structuur eruit zoals in figuur \ref{fig:meth_airtable_tables}. Airtable maakt gebruik van een tabblad structuur, waardoor er geen nieuwe pagina moet worden ingeladen om te wisselen van tabel, dit zorgt dan weer voor een zeer aangename gebruikerservaring. \\
 
-\begin{figure}[ht]
+\begin{figure}[h]
     \centering
     \includegraphics[width=\linewidth]{methodologie/Airtable_tables.jpg}
     \caption{Tables in Airtable.}
@@ -137,7 +137,7 @@ Het 'Formula' veld is vergelijkbaar met een calculatieveld in Podio. Hiermee kun
 
 In figuur \ref{fig:meth_airtable_dossiersTable} is de uitgewerkte tabel voor de 'Dossiers' weergegeven, waarvan structuur van de opzet is nagenoeg dezelfde als die in Podio, op enkele verschillen na. Zo wordt voor de totaal score bijvoorbeeld gebruik gemaakt van een ander soort veld dan het `Formula` veld. In tegenstelling tot Podio ondersteunt het `Formula` veld geen loops, in plaats daarvan voorziet Airtable het `Roll-up` veld. Met dit veld kan een lijst met waarden, afkomstige uit een relatie, worden verwerkt. Zo wordt voor de totaalscore de som gemaakt van elke score bij de evaluaties en daarna gedeeld door 20. \\ 
 
-\begin{figure}[ht]
+\begin{figure}[h]
     \centering
     \includegraphics[width=\linewidth]{methodologie/Airtable_tableDossier.jpg}
     \caption{Uitgewerkte 'Dossiers' table in Airtable.}
@@ -147,7 +147,7 @@ In figuur \ref{fig:meth_airtable_dossiersTable} is de uitgewerkte tabel voor de 
 
 Na het instellen van de attributen, kan overgegaan worden tot de laatste stap in het bouw proces, namelijk automatisaties of workflows invoegen. In tegenstelling tot Podio, zitten deze wel ingebouwd in het platform en zijn ze gemakkelijk te bereiken via één simpele klik. In figuur \ref{fig:meth_airtable_automations} is te zien hoe ze zeer overzichtelijk worden weergegeven. Verder toont de figuur ook hoe een eenvoudige workflow is opgebouwd. In contrast met Podio is er geen apart gedeelte voor filters, maar zitten deze ingebouwd in de configuratie van de trigger,  daarna volgen direct de acties. Bovendien is er ook de optie om een workflow uit te testen, wat in Podio niet het geval is. \\
 
-\begin{figure}[ht]
+\begin{figure}[h]
     \centering
     \includegraphics[width=\linewidth]{methodologie/Airtable_automations.jpg}
     \caption{Overzicht van automatisaties in Airtable.}
@@ -157,7 +157,7 @@ Na het instellen van de attributen, kan overgegaan worden tot de laatste stap in
 
 Het omzetten tot pdf-bestand daarentegen is in Airtable niet zo eenvoudig dan als in Podio. Airtable voorziet in automatisaties namelijk geen optie om een pdf-bestand op te stellen, maar hier moet dit gebeuren via een extensie. Eerst en vooral is het belangrijk te vermelden dat de optie om extensies toe te voegen, ingebouwd zit in Airtable, wat in Podio niet het geval is. Er zijn verschillende extensies die het opmaken van een pdf-bestand verwezenlijken, zo heb je onder andere de `Page Designer` extensie, die ontwikkeld is door Airtable zelf. Hiermee kan je mooie templates opstellen en invullen met data uit de tabellen. Deze extensie beperkt zich wel tot een enkele pagina, wat dus niet altijd het geval is. Uiteindelijk werd voor deze use case gekozen om gebruik te maken van de `PDF Generator API` extensie. Ook hier wordt vooraf een simpele template opgesteld om vervolgens op te vullen met de gewilde velden uit de dossiers table. Ten slotte hoeven enkel nog de records die geconverteerd moeten worden, geselecteerd worden en kan een pdf-bestand gegenereerd worden. Dat pdf-bestand wordt dan toegevoegd in het `Attachments` veld van de records, zoals weergegeven in figuur \ref{fig:meth_airtable_dossiersAttachments}. Alhoewel hier dus geen automatisatie werd aangemaakt, is het wel degelijk mogelijk om een extensie uit te voeren via een automatisatie. Via de betaalde versie van Airtable kan men in automatisaties scripts toevoegen die het gebruik van extensies toelaat.  \\
 
-\begin{figure}[ht]
+\begin{figure}[h]
     \centering
     \includegraphics[width=\linewidth]{methodologie/Airtable_dossiersAttachments.jpg}
     \caption{pdf-bestand toegevoegd aan attachments veld in 'Dossiers' table na het uitvoeren van de workflow.}
@@ -175,7 +175,7 @@ Ten slotte kan dus besloten worden dat het perfect mogelijk is om de use case ui
 
 Nu ook Airtable onderzocht werd, kan overgegaan worden tot het tweede en laatste potentiële alternatief, namelijk Google AppSheet. Eerst en vooral is de structuur in Appsheet opmerkelijk anders dan in Podio of Airtable. Zoals weergegeven in figuur \ref{fig:meth_appsheet_structuur}, maakt het platform namelijk geen gebruik van workspaces en splitst het bovendien projecten op in databases en applicaties. Alhoewel dit iets mindere gebruikerservaring zorgt, omdat er vaak moet afgewisseld worden tussen de twee, heeft dit wel als voordeel dat een enkele database gebruikt kan worden door meerdere applicaties. Bij het aanmaken van een App is er net zoals bij Podio en Airtable de optie om data te importeren van een externe bron, namelijk de Google Drive van de gebruiker. Indien er voor gekozen wordt een blanco app aan te maken, zal Appsheet automatisch ook een achterliggende database creëren. \\
 
-\begin{figure}[ht]
+\begin{figure}[h]
     \centering
     \includegraphics[width=\linewidth]{methodologie/Appsheet_structure.jpg}
     \caption{Structuur van AppSheet.}
@@ -185,7 +185,7 @@ Nu ook Airtable onderzocht werd, kan overgegaan worden tot het tweede en laatste
 % uitleg structuur applicatie
 Nadat de applicatie aangemaakt is, moet eerst de database correct geconfigureerd worden. In figuur \ref{fig:meth_appsheet_database} is te zien dat net zoals Airtable ook AppSheet met 'Tables' of tabellen werkt. Voor elk onderwerp uit de analyse wordt dus een tabel aangemaakt. Verder stellen ook de kolommen van de tabel terug de attributen voor, dus wordt voor elk attribuut een kolom aangemaakt. Net zoals bij Airtable en Podio zijn er een groot aantal verschillende velden waaruit gekozen kan worden om het type van een attribuut voor te stellen. In het algemeen bevat AppSheet zelfs meer types velden dan de vorige platformen. Toch ontbreekt er een zeer belangrijk veld, er is namelijk geen calculatie of 'Formula' veld. In Appsheet kunnen berekeningen of tekstverwerkingen niet ingesteld worden in de database zelf, maar gebeurt dit in het applicatie gedeelte, deze worden dus pas achteraf ingesteld. Daarnaast moeten de verschillende kolommen wel nog gelinkt worden met elkaar, dit gebeurt via het `Relationship` veld, dat zeer eenvoudig ingesteld kan worden. Verder heeft ook AppSheet een 'Look-up' veld dat toelaat om data uit een andere tabel weer te geven.
 
-\begin{figure}[ht]
+\begin{figure}[h]
     \centering
     \includegraphics[width=\linewidth]{methodologie/Appsheet_database.jpg}
     \caption{Database in AppSheet.}
