@@ -21,7 +21,7 @@ In de stand van zaken wordt eerst en vooral toegelicht wat een no-code/low-code 
 
 Eerst en vooral is het belangrijk om toe te lichten wat er verstaan wordt onder de term 'low-code development platform'. Zoals weergegeven in figuur \ref{fig:lcdp_history} dateert de eerste vermelding van de term 'low-code' in 2014. Toen werden ze gedefinieerd als 'platformen die een snelle oplevering van business applicaties toestaan, met een minimum aan handgeschreven code en investering in setup, training en deployment' \autocite{Ruscio2022}. In 2017 werd deze definitie echter bijgewerkt tot een meer gedetailleerde variant, low-code development platforms (LCDP's) werden omschreven als 'product en/of cloud services voor het ontwikkelen van applicaties die visuele, declaratieve technieken gebruiken in plaats van programmeren en die toegankelijk zijn tot gebruikers voor een minimum van training of kosten' \autocite{Ruscio2022}. \\
 
-\begin{figure}[hb]
+\begin{figure}[h]
     \centering
     \includegraphics{LCDP_MajorEvents.jpg}
     \caption[Geschiedenis low-code development platforms]{Korte historie van low-code development platforms \autocite{Ruscio2022}.}
@@ -35,7 +35,7 @@ Een low-code platform wordt door \textcite{Waszkowski2019} omschreven als 'Een s
 
 In het algemeen bestaan low-code platformen uit vier lagen, zoals weergegeven in figuur \ref{fig:lcdp_structure}. De bovenste laag of Application Layer bevat de GUI waarmee de gebruikers gaan interageren om hun gewenste applicatie op te bouwen. Daarbovenop bevat deze laag de authenticatie en autorisatie mechanismen. De tweede laag of Service Integration Layer maakt verbinding met verschillende diensten aan de hand van API's en authenticatiemechanismen. Vervolgens is er de Data Integration Layer, deze houdt zich bezig met de integratie van gegevens uit verschillende bronnen. Ten slotte is er nog de Deployment Layer die de ontwikkelde applicatie zal opzetten in speciale cloud infrastructuren of on-premise omgevingen, waarbij containerisatie, orkestratie en continue integratie en deployment (CI/CD) gefaciliteerd worden. \\
 
-\begin{figure}[hb]
+\begin{figure}[h]
     \centering
     \includegraphics{LCDP_Structure.png}
     \caption[Structuur low-code platforms]{Algemene structuur van low-code development platforms \autocite{Sahay2020}.}
@@ -84,9 +84,9 @@ Podio werd opgericht in 2009 door Anders Pollas, Jon Froda en Kasper Hulthin \au
 
 Podio is een cloud-based collaboration platform dat gebruikers toelaat om op maat gemaakte business software te ontwikkelen. Het kan business processen aggregeren in een enkel platform en kan uitgebreid worden naar de wensen van de gebruiker. Het voorziet diverse bouwblokken voor het bouwen van mobiele- en desktop applicaties en automatisaties, zodat het toegepast kan worden in een diverse reeks van use cases. Het doel van Podio is om alle gegevens en communicatie te omvatten in één tool die overal gebruikt kan worden \autocite{Podio}. \\ 
 
-\begin{figure}[hb]
+\begin{figure}[h]
     \centering
-    \includegraphics{Podio_Structure.png}
+    \includegraphics[width=0.6\textwidth]{Podio_Structure.png}
     \caption[Structuur Podio]{Algemene structuur van Podio \autocite{TallyfyPodio}.}
     \label{fig:podio_structure}
 \end{figure}
@@ -97,7 +97,7 @@ Het doel van een workspace is om een groep mensen samen te brengen en van releva
 
 Apps creëren meer overzicht binnenin een workspace en helpen het team hun werk op te volgen \autocite{PodioFeatures}. Elke app wordt opgebouwd uit een samenvoeging van bouwblokken of velden, deze staan gelijst in tabel \ref{tab:podio_velden}. Het belangrijkste veld in deze tabel is het 'Relationship' veld, want hiermee kunnen relaties gelegd worden tussen de verschillende apps. Bovendien heeft Podio ook een app store die bestaat uit pasklare apps, zo kunnen managers een volledig functionele applicatie opzetten in slechts enkele minuten tijd \autocite{TallyfyPodio}. \\
 
-\begin{table}[ht]
+\begin{table}[h]
     \centering
     \caption{\label{tab:podio_velden} Lijst met veld types voor Podio apps \autocite{PodioFeatures}.}
     \begin{tabular}{ | p{3cm} | p{11cm} | }
@@ -171,9 +171,9 @@ Het idee achter Airtable werd bedacht door Howie Liu in 2012. Hij zag in dat spr
 
 Airtable is een low-code/no-code platform waarmee gebruikers op maat gemaakte applicaties kunnen bouwen zonder enige programmeervaardigheden. Het laat toe om eenvoudig een interne database te creëren die belangrijke informatie voor het werk bevat. Bovenop deze database kan dan een krachtige applicatie gebouwd worden die ook workflows en projecten automatiseert. Met Airtable kunnen gebruikers alle informatie met betrekking tot hun doelen en doelstellingen bijhouden en koppelen aan andere tools voor het automatiseren van taken, zoals het verzenden van een email. Automatisaties kunnen getriggerd worden door specifieke acties of tijdstippen. Hierdoor kan men tijd besparen op repetitieve taken en zich focussen op zaken die belangrijker zijn. Daarnaast maakt het platform ook eenvoudige weergave van gegevens mogelijk, bijvoorbeeld zoals weergegeven in figuur \ref{fig:exampleairtable} via Gantt-grafieken of andere soorten visualisaties. Airtable brengt informatie uit verschillende bronnen samen en stelt gebruikers in staat hun gegevens te sorteren, te filteren en te herschikken om zo aangepaste views voor hun teamleden en partners te creëren. Op die manier heeft iedere stakeholder de informatie die voor hen het meest noodzakelijk is. Het platform biedt gebruikers volledige controle over de applicaties die ze bouwen, ongeacht hun programmeerkennis, dankzij de flexibele en krachtige database die is afgestemd op complexe en specifieke workflows \autocite{AirtableWhat}. \\
 
-\begin{figure}[hb]
+\begin{figure}[h]
     \centering
-    \includegraphics{Airtable_WatIs_Voorbeeld.jpg}
+    \includegraphics[width=0.7\textwidth]{Airtable_WatIs_Voorbeeld.jpg}
     \caption[Voorbeeld Airtable View]{Voorbeeld van Airtable view \autocite{AirtableWhat}.}
     \label{fig:exampleairtable}
 \end{figure}
@@ -190,7 +190,7 @@ Om data te integreren met externe applicaties of systemen wordt gebruik gemaakt 
 
 Airtable WEB API maakt gebruik van token-based authenticatie. Dit betekent dat alle requests een persoonlijke of OAuth token in hun header moeten hebben, zoals in figuur \ref{fig:airtable_authtoken} weergegeven \autocite{AirtableAPIAuthentication}. \\
 
-\begin{figure}[hb]
+\begin{figure}[h]
     \centering
     \includegraphics{Airtable_WebAPI_AuthToken.png}
     \caption[Voorbeeld Airtable API call]{Voorbeeld van Airtable API call \autocite{AirtableAPIAuthentication}.}
@@ -213,7 +213,7 @@ AppSheet is een no-code development platform dat werd overgenomen door Google in
 
 AppSheet voorziet een groot aanbod aan templates voor verschillende use cases. In tabel \ref{tab:Tabel 2} werden enkele voorbeelden gelijst, die aantonen dat het platform voor zeer diverse doeleinden gebruikt kan worden. 
 
-\begin{table}[ht]
+\begin{table}[h]
     \centering
     \caption{\label{tab:Tabel 2} Lijst met beschikbare AppSheet templates \autocite{AppSheetTemplates}.}
     \begin{tabular}{ | p{5cm} | p{9cm} | }
