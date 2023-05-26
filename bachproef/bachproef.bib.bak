@@ -78,7 +78,6 @@
 @Online{PodioAPI2023,
   date         = {2018},
   editor       = {Podio},
-  file         = {:PodioAPI2023 - Getting Started with Podio API.bib:bib},
   organization = {Citrix Podio},
   title        = {Getting started with Podio API},
   url          = {https://developers.podio.com},
@@ -269,7 +268,7 @@
   urldate      = {2023-05-09},
 }
 
-@Online{AirtableStatus2023,
+@Online{AirtableStatus,
   editor  = {Airtable},
   title   = {Airtable Incident History},
   url     = {https://status.airtable.com/history},
